@@ -6,7 +6,7 @@ const Mentors = () => {
     <div className="mentors">
       mentors
       <br />
-      <button>ok</button>
+      <button>more</button>
     </div>
   );
 };

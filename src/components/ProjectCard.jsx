@@ -1,11 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 
 const ProjectCard = (props) => {
   let card = props.card;
-  console.log(card);
   return (
     <>
-      Фото проекта: <img src="../img/photo1.jpg" alt="photo1" />
+      Фото проекта: <img src={card.photo} alt="photo1" />
       <br></br>
       Проект номер: {card.id}
       <br></br>

@@ -1,0 +1,105 @@
+.header {
+  top: 0px;
+  height: 100px;
+  width: 100%;
+  clear: both;
+  position: absolute;
+  background-color: rgb(109, 202, 202);
+}
+
+.content {
+  top: 100px;
+  width: 100%;
+  height: 800px;
+  position: absolute;
+  background-color: rgb(252, 193, 121);
+}
+
+.footer {
+  top: 900px;
+  width: 100%;
+  height: 100px;
+  position: absolute;
+  clear: both;
+  background-color: rgb(87, 172, 175);
+}
+
+.menu {
+  top: -25px;
+  left: 20px;
+  position: relative;
+  color: brown;
+  font-size: 16px;
+  list-style-type: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: brown;
+  font-size: 18px;
+}
+
+.menu li a:hover {
+  color: red;
+}
+
+.menu li a:active {
+  color: green;
+}
+
+.menu li {
+  margin: 10px;
+  float: left;
+  width: 100px;
+  height: 30px;
+  outline: 1px solid black;
+  text-align: center;
+}
+
+.card {
+  float: left;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+  clear: both;
+}
+
+.mentors {
+  top: 70px;
+  left: 750px;
+  height: 550px;
+  width: 400px;
+  position: absolute;
+  clear: both;
+  border: 1px solid black;
+}
+
+.wrapper {
+  position: relative;
+  width: 98%;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.card-1 {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+}
+
+.card-2 {
+  position: absolute;
+  top: 70px;
+  left: 420px;
+}
+.card-3 {
+  top: 370px;
+  left: 70px;
+  position: absolute;
+}
+.card-4 {
+  top: 370px;
+  left: 420px;
+  position: absolute;
+}

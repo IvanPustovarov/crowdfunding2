@@ -1,0 +1,30 @@
+.card {
+  float: left;
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  border: 1px solid black;
+  clear: both;
+}
+
+.card-1 {
+  position: absolute;
+  top: 70px;
+  left: 70px;
+}
+
+.card-2 {
+  position: absolute;
+  top: 70px;
+  left: 420px;
+}
+.card-3 {
+  top: 370px;
+  left: 70px;
+  position: absolute;
+}
+.card-4 {
+  top: 370px;
+  left: 420px;
+  position: absolute;
+}

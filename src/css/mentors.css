@@ -1,0 +1,9 @@
+.mentors {
+  top: 70px;
+  left: 750px;
+  height: 550px;
+  width: 400px;
+  position: absolute;
+  clear: both;
+  border: 1px solid black;
+}

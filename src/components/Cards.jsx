@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/mainPage.css";
+import "../css/cards.css";
 import ProjectCard from "./ProjectCard";
 import card from "../store/card";
 

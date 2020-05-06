@@ -5,15 +5,15 @@ const ProjectCard = (props) => {
   return (
     <>
       Фото проекта: <img src={card.photo} alt="photo1" />
-      <br></br>
+      <br />
       Проект номер: {card.id}
-      <br></br>
+      <br />
       Название проекта: {card.name}
-      <br></br>
+      <br />
       Описание проекта: {card.description}
-      <br></br>
+      <br />
       Руководители проекта: {card.mentor}
-      <br></br>
+      <br />
     </>
   );
 };

@@ -6,4 +6,6 @@
   position: absolute;
   clear: both;
   border: 1px solid black;
+  overflow: scroll;
+  text-align: left;
 }

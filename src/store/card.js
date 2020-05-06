@@ -2,21 +2,24 @@ import photo1 from "../img/photo1.jpg";
 import photo2 from "../img/photo2.jpg";
 import photo3 from "../img/photo3.jpg";
 import photo4 from "../img/photo4.jpg";
-// let pictureArray = ["photo1.jpg", "photo2.jpg", "photo3.jpg", "photo4.jpg"];
+// import * as images from "../img";
+
+// let images = require("../img/");
+let pictureArray = ["photo1.jpg", "photo2.jpg", "photo3.jpg", "photo4.jpg"];
 
 let card = [
   {
     id: 1,
     name: "CS",
     description: "Амбициозный IT проект по CS (computer science) ищет средства",
-    mentor: "Иванов Дмитрий",
+    mentor: "Иван Крульков",
     photo: photo1,
   },
   {
     id: 2,
     name: "Algorithms",
     description: "Амбициозный IT проект по алгоритмам ищет средства",
-    mentor: "Ватрушкин Пётр",
+    mentor: "Дмитрий Воротников",
     photo: photo2,
   },
   {
@@ -24,7 +27,7 @@ let card = [
     name: "Rights",
     description:
       "Правовой проект для защиты права выбора человека ищет средства",
-    mentor: "Садовой Евгений",
+    mentor: "Виталий Головин",
     photo: photo3,
   },
   {
@@ -32,7 +35,7 @@ let card = [
     name: "Health",
     description:
       "Оздоровительный проект для поддержки пожилого населения ищет средства",
-    mentor: "Заливкин Виталий",
+    mentor: "Виталий Головин",
     photo: photo4,
   },
 ];
@@ -40,27 +43,29 @@ let card = [
 let people = [
   {
     photo: "link",
-    name: "1",
-    year: 20,
+    name: "Иван Крульков",
+    year: 28,
     region: "Russia",
     role: "mentor",
-    about: "lorem50",
+    about: "Работаю в сфере обучения уже 7 лет. Вырос в городе Казань",
   },
   {
     photo: "link",
-    name: "2",
-    year: 20,
+    name: "Дмитрий Воротников",
+    year: 30,
     region: "Russia",
     role: "mentor",
-    about: "lorem50",
+    about:
+      "Большой опыт работы с разнообразными проектами. Учился в спец. школе",
   },
   {
     photo: "link",
-    name: "3",
-    year: 20,
+    name: "Виталий Головин",
+    year: 35,
     region: "Russia",
     role: "mentor",
-    about: "lorem50",
+    about:
+      "Являюсь ментором двух амбициозных проектов в разных сферах деятельности. Занимаюсь боксом",
   },
   {
     photo: "link",
@@ -120,5 +125,5 @@ let people = [
   },
 ];
 
-export default card;
-export { people };
+export { card, people };
+export { pictureArray };

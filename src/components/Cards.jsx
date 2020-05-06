@@ -1,12 +1,14 @@
 import React from "react";
 import "../css/cards.css";
 import ProjectCard from "./ProjectCard";
-import card from "../store/card";
+import { card } from "../store/card";
+
+const onCardClick = () => {};
 
 const Cards = () => {
   return (
     <>
-      <div className="card card-1">
+      <div onClick={onCardClick} className="card card-1">
         <ProjectCard card={card[0]} />
       </div>
       <div className="card card-2">

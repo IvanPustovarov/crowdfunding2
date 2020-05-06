@@ -5,6 +5,14 @@
   clear: both;
   position: absolute;
   background-color: rgb(109, 202, 202);
+  text-align: center;
+}
+
+.header span {
+  color: rgb(138, 98, 38);
+  font-size: 55px;
+  text-transform: uppercase;
+  -webkit-user-select: none;
 }
 
 .content {
@@ -16,21 +24,24 @@
 }
 
 .footer {
+  text-align: center;
   top: 900px;
   width: 100%;
   height: 100px;
   position: absolute;
   clear: both;
   background-color: rgb(87, 172, 175);
+  -webkit-user-select: none;
 }
 
 .menu {
-  top: -25px;
+  top: -15px;
   left: 20px;
   position: relative;
   color: brown;
   font-size: 16px;
   list-style-type: none;
+  -webkit-user-select: none;
 }
 
 .menu a {
@@ -39,11 +50,12 @@
   font-size: 18px;
 }
 
-.menu li a:hover {
-  color: red;
+.menu li:hover {
+  color: rgb(121, 115, 42);
+  background: rgb(223, 192, 55);
 }
 
-.menu li a:active {
+.menu li:active {
   color: green;
 }
 
@@ -52,8 +64,12 @@
   float: left;
   width: 100px;
   height: 30px;
-  outline: 1px solid black;
+  border: 1px solid black;
   text-align: center;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
 .wrapper {
@@ -61,4 +77,8 @@
   width: 98%;
   height: 500px;
   margin: 0 auto;
+}
+
+.footer span {
+  color: rgb(48, 46, 26);
 }

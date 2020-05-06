@@ -6,7 +6,9 @@ import Mentors from "./Mentors";
 const MainPage = () => {
   return (
     <div className="wrapper">
-      <div className="header">header</div>
+      <div className="header">
+        <span>краудфандинговая платформа "пирамида"</span>{" "}
+      </div>
       <div className="content">
         <ul className="menu">
           <li>Все</li>
@@ -17,7 +19,9 @@ const MainPage = () => {
         <Card />
         <Mentors />
       </div>
-      <div className="footer">footer</div>
+      <div className="footer">
+        <span>&copy; Все права защищены</span>
+      </div>
     </div>
   );
 };

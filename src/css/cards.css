@@ -1,12 +1,22 @@
 .card {
+  padding: 5px;
   float: left;
   position: absolute;
   width: 250px;
   height: 250px;
-  border: 1px solid black;
+  outline: 1px solid black;
   clear: both;
+  border: 0px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
 }
 
+.card:hover {
+  background: rgb(202, 154, 23);
+  outline: none;
+}
 .card-1 {
   position: absolute;
   top: 70px;

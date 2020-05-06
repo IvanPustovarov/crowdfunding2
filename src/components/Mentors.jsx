@@ -10,7 +10,7 @@ const Mentors = () => {
       <Profile people={people[1]} />
       <Profile people={people[2]} />
       <br />
-      <button>more</button>
+      <button>coming soon</button>
     </div>
   );
 };
